@@ -1,0 +1,34 @@
+* {
+   border: 1px solid black;
+   /* background-color: lightblue;  */
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    height: 80vh; 
+}
+
+.column-1, .column-2 {
+    margin: 1em;
+    padding: 1em;
+    height: 70vh;
+}
+
+.column-1 {
+    width: 60vw;
+}
+
+.column-2 {
+    width: 20vw;
+}
+
+.fish-list, .quotes, .locations {
+    height: 25%;
+    margin: 2em;
+}
+
+.fish-tips {
+    height: 90%;
+    margin: 2em;
+}
